@@ -1,6 +1,6 @@
 function setup() {
 
-  createCanvas(700,700);
+  createCanvas(600,600);
   background(255,150,120)
 
 }
@@ -8,14 +8,14 @@ function setup() {
 function draw() {
 	noStroke();
 	
-  if ((mouseX<400)&&(mouseX>200)) {
-    fill(0,0,255,50);
+  if ((mouseY<200)&&(mouseY>00)) {
+    fill(255,153,51,50);
   } 
-  else if ((mouseX<600)&&(mouseX>400)){
-    fill(255,0,0,50);
+  else if ((mouseY<400)&&(mouseY>200)){
+    fill(255,255,255,50);
   }
-  else if ((mouseX<700)&&(mouseX>600)){
+  else if ((mouseY<600)&&(mouseY>400)){
     fill(0,255,0,50);
   }
-  ellipse(mouseX, mouseY, 20, 20);
+  ellipse(mouseX, mouseY, 200, 200);
 }
