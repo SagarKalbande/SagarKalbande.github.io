@@ -8,10 +8,17 @@ html, body {
     font-weight: 200;
 }
 
+.smallLogo{
+
+    width: 25px;
+    height: auto;
+    margin: 5px 5px;
+}
 .responsive {
+  border-radius: 25px;
     width: 100%;
     height: auto;
-    margin: 25px 5px;
+    margin: 50px 5px;
 }
 
 .mainlogo{
@@ -118,6 +125,7 @@ html, body {
 .projects{
   text-transform: lowercase;
   font-family: 'Advent Pro';
+  margin: 25px 5px;
 }
 
 
