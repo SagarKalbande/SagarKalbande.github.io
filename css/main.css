@@ -25,6 +25,10 @@ html, body {
   width: auto;
 }
 
+a
+{
+  color: blue;
+}
 .centered {
     position: absolute;
     top: 50%;
