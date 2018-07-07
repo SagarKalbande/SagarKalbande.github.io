@@ -25,10 +25,6 @@ html, body {
   width: auto;
 }
 
-a
-{
-  color: blue;
-}
 .centered {
     position: absolute;
     top: 50%;
@@ -127,6 +123,7 @@ a
 }
 
 .projects{
+  color: white;
   text-transform: lowercase;
   font-family: 'Advent Pro';
   margin: 25px 5px;
@@ -248,9 +245,9 @@ text-align: justify;
   font-weight: 400;
   text-align: justify;
 }
-a{
-  color:#c11603 !important;
-  font-weight: 900;
+a
+{
+  color: Lightgreen;
   cursor: pointer;
 }
 i{
